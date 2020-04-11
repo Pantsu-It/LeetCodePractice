@@ -24,11 +24,31 @@ package leetcode.editor.cn;
 public class P213HouseRobberIi {
     public static void main(String[] arg) {
         Solution solution = new P213HouseRobberIi().new Solution();
+        int[] nums = {1,2,3,1};
+        solution.rob(nums);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int rob(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        // 在变量使用前，确定边界条件！
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        int price0 = robRange(nums, 0, nums.length-2);
+        int price1 = robRange(nums, 1, nums.length-1);
+        return Math.max(price0, price1);
+    }
 
+    public int robRange(int[] nums, int start, int end) {
+        int[] prices = new int[nums.length];
+        prices[start] = nums[start];
+        for (int i= start + 1; i<= end; ++i) {
+            prices[i] = Math.max((i > 1? prices[i-2] : 0) + nums[i], prices[i-1]);
+        }
+        return prices[end];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
