@@ -31,23 +31,31 @@ class Solution {
         // 复杂度为O(n)的解法：
         // 1.从左侧dp一遍，再从右侧dp一遍
         // 2.记录max，min值，遇到负数交换max和min，
-    public int maxProduct(int[] nums) {
-        int max = nums[0];
-        int[][] dp = new int[nums.length][nums.length];
-        for (int step = 0; step < nums.length; ++step) {
-            for (int i = 0, j = i + step; j < nums.length; ++i, ++j) {
-                if (step == 0) {
-                    dp[i][j] = nums[i];
-                } else {
-                    dp[i][j] = dp[i][j - 1] * nums[j];
+        public int maxProduct(int[] nums) {
+            int a = 1;
+            int max = nums[0];
+
+            for (int num : nums) {
+                a = a * num;
+                if (max < a) {
+                    max = a;
                 }
-                if (max < dp[i][j]) {
-                    max = dp[i][j];
+                if (num == 0) {
+                    a = 1;
                 }
             }
+            a = 1;
+            for (int i = nums.length - 1; i >= 0; i--) {
+                a = a * nums[i];
+                if (max < a) {
+                    max = a;
+                }
+                if (nums[i] == 0) {
+                    a = 1;
+                }
+            }
+            return max;
         }
-        return max;
-    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

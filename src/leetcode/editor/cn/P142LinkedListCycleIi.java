@@ -64,9 +64,13 @@ public class P142LinkedListCycleIi {
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        if (head == null) {
-            return null;
-        }
+        // 快慢指针法
+        // todo
+        return null;
+    }
+
+    public ListNode detectCycle2(ListNode head) {
+        // 使用HashSet
         Set<ListNode> container = new HashSet<>();
         ListNode node = head;
         while (node != null) {

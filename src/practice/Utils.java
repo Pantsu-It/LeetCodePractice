@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Utils {
 
-    public static void swapArray(int[] nums, int i, int j) {
+    public static void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
