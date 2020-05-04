@@ -41,7 +41,7 @@ package leetcode.editor.cn;
 // Related Topics 栈 链表
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

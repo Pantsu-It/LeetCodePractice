@@ -41,7 +41,7 @@ public class P40CombinationSumIi {
         Solution solution = new P40CombinationSumIi().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+    class Solution {
         Set<List<Integer>> result;
 
         public List<List<Integer>> combinationSum2(int[] candidates, int target) {

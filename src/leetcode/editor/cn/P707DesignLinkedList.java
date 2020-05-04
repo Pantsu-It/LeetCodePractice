@@ -39,7 +39,7 @@ package leetcode.editor.cn;
 // Related Topics 设计 链表
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
 public class P707DesignLinkedList {
     public static void main(String[] arg) {

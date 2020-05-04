@@ -19,11 +19,9 @@ package leetcode.editor.cn;
 // Related Topics 链表 双指针
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 
 public class P19RemoveNthNodeFromEndOfList {
     public static void main(String[] arg) {

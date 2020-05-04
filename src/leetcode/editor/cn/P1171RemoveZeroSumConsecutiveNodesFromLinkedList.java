@@ -40,7 +40,7 @@ package leetcode.editor.cn;
 // Related Topics 链表
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
 import java.util.HashMap;
 import java.util.Map;

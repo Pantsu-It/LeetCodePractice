@@ -1,4 +1,4 @@
-package leetcode.editor.beans;
+package leetcode.editor.beans.linkedlist;
 
 public class Node {
     public int val;

@@ -56,11 +56,9 @@ package leetcode.editor.cn;
 // Related Topics 哈希表 链表
 
 
-import leetcode.editor.beans.Node;
+import leetcode.editor.beans.linkedlist.Node;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class P138CopyListWithRandomPointer {

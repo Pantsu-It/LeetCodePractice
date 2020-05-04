@@ -43,7 +43,7 @@ public class AllOfSort {
     }
 
     private static int[] quickSort3(int[] nums) {
-        quickSort3(nums, 0, nums.length);
+        quickSort3(nums, 0, nums.length - 1);
         return nums;
     }
 

@@ -19,8 +19,8 @@ package leetcode.editor.cn;
 // Related Topics 深度优先搜索 链表
 
 
-import leetcode.editor.beans.ListNode;
-import leetcode.editor.beans.TreeNode;
+import leetcode.editor.beans.linkedlist.ListNode;
+import leetcode.editor.beans.tree.TreeNode;
 
 
 public class P109ConvertSortedListToBinarySearchTree {

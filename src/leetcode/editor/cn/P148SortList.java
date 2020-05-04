@@ -15,7 +15,7 @@ package leetcode.editor.cn;
 // Related Topics 排序 链表
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
 public class P148SortList {
     public static void main(String[] arg) {

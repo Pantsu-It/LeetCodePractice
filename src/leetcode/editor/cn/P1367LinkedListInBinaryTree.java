@@ -48,8 +48,8 @@ package leetcode.editor.cn;
 // Related Topics 树 链表 动态规划
 
 
-import leetcode.editor.beans.ListNode;
-import leetcode.editor.beans.TreeNode;
+import leetcode.editor.beans.linkedlist.ListNode;
+import leetcode.editor.beans.tree.TreeNode;
 
 public class P1367LinkedListInBinaryTree {
     public static void main(String[] arg) {

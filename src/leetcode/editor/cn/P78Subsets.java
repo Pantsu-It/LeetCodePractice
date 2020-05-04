@@ -32,7 +32,7 @@ public class P78Subsets {
         solution.subsets(nums);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+    class Solution {
         List<List<Integer>> res;
 
         public List<List<Integer>> subsets(int[] nums) {

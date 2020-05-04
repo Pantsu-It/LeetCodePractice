@@ -1,4 +1,4 @@
-package leetcode.editor.beans;
+package leetcode.editor.beans.tree;
 
 public class TreeNode {
 

@@ -24,7 +24,7 @@ package leetcode.editor.cn;
 // Related Topics 链表
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
 public class P328OddEvenLinkedList {
     public static void main(String[] arg) {

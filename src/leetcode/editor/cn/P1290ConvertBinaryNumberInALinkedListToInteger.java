@@ -51,7 +51,7 @@ package leetcode.editor.cn;
 // Related Topics 位运算 链表
 
 
-import leetcode.editor.beans.ListNode;
+import leetcode.editor.beans.linkedlist.ListNode;
 
 public class P1290ConvertBinaryNumberInALinkedListToInteger {
     public static void main(String[] arg) {
